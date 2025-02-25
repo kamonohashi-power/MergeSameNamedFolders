@@ -10,6 +10,14 @@ This Python script automatically detects and merges subfolders with the same nam
 - Skips existing files to prevent overwriting
 - Automatically removes empty nested folders
 
+## Supported Environments
+This script is designed to work on the following operating systems:
+- **Windows**
+- **macOS**
+- **Linux**
+
+Since it uses Python's built-in `os` and `shutil` modules, it should run on any system with Python installed. However, file permissions and metadata handling may vary slightly depending on the OS.
+
 ## Installation
 No additional dependencies are required, as the script uses Python's built-in libraries.
 
